@@ -1,0 +1,15 @@
+{
+  "TOKEN": "MTIxMTM0MTE2NjIxNDEyMzY1Mg.G-yxxL.lez_FcXfzDvXwd3kl7Bu6X-NFiGzzfP-mvrWN8",
+  "OWNER_ID": ["1204172269669326953", "1212197208821080075", "1187143409010495598"],
+  "WEBHOOK_URL": "https://discord.com/api/webhooks/1243588178800021576/3I_srPdLyjvo25J8LXuXSjFILX_jO0b2DHiVMolELDH5bIvwDYlilxnjfUugNu_nqElw",
+  "WEBHOOK_VIP_URL": "https://discord.com/api/webhooks/1243588310937636884/91Mkv6MuoC69rbgObzxdULF5J8aJjCeqEVJI5mEihfk8_6CvioCe5cjzwBYegnz23Fjt",
+  "WEBHOOK_BL_URL": "https://discord.com/api/webhooks/1238615228493729912/E4pehNl8oQIfMURfXAOziqpyw5yXMraLmQo-11ukizQuzve15TVGU20DAqEINS9Ovx9n",
+  "WEBHOOK_ADMIN_URL": "https://discord.com/api/webhooks/1246345232404975668/C_7LqE1M3CjhGvQJrIVqtYj5DOnQfZwd6ELzW9I6IG56Lu6z5hyJe6lS0ivrNPbZX551",
+  "WL_CHANNELS": "1236715195271872552",
+  "METHODS_NOVIP": ["tcp", "udp", "ldap", "mixamp", "syn", "game-rl", "game-warzone", "ovhudp", "http", "http-rdm"],
+  "VIP_METHODS": ["udp-vip", "tcp-vip", "ack", "game-mix", "game-thefinals", "ssh-vip", "fivem", "ovh-max", "cfbypass", "https-vip"],
+  "API_KEY": "jqfjqjf424525",
+  "IPINFO_TOKEN": "de216a77a839cd",
+  "API_USERNAME": "royalstress",
+  "API_URL": "http://royal-api.cc/api/attack"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "royal-stress",
+  "version": "1.0.0",
+  "description": "RoyalStress",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@sapphire/shapeshift": "^3.9.7",
+    "axios": "^1.7.2",
+    "discord.js": "^13.17.1",
+    "fs": "^0.0.1-security",
+    "luxon": "^3.4.4",
+    "node-fetch": "^2.6.1",
+    "portscanner": "^2.2.0",
+    "sqlite3": "^5.0.2"
+  },
+  "author": "Roy",
+  "license": "ISC"
+}
