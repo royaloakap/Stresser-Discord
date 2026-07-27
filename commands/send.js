@@ -169,7 +169,7 @@ module.exports = {
                     sendMessage(message.author, "❌ Failed to send message to webhook. Error: " + err.message);
                 });
 
-                const apiUrl = `${config.API_URL}?username=${config.API_USERNAME}&key=${config.API_KEY}&host=${host}&port=${port}&time=${time}&method=${method}`;
+                const apiUrl = `${config.API_URL}?username=${config.API_USERNAME}&password=${config.API_KEY}&host=${host}&port=${port}&time=${time}&method=${method}`;
                 fetch(apiUrl)
                 .then(res => res.json())
                 .then(async data => {
