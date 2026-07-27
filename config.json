@@ -1,5 +1,5 @@
 {
-  "TOKEN": "MTIxMTM0MTE2NjIxNDEyMzY1Mg.G-yxxL.lez_FcXfzDvXwd3kl7Bu6X-NFiGzzfP-mvrWN8",
+  "TOKEN": "token bot",
   "OWNER_ID": ["1204172269669326953", "1212197208821080075", "1187143409010495598"],
   "WEBHOOK_URL": "https://discord.com/api/webhooks/1243588178800021576/3I_srPdLyjvo25J8LXuXSjFILX_jO0b2DHiVMolELDH5bIvwDYlilxnjfUugNu_nqElw",
   "WEBHOOK_VIP_URL": "https://discord.com/api/webhooks/1243588310937636884/91Mkv6MuoC69rbgObzxdULF5J8aJjCeqEVJI5mEihfk8_6CvioCe5cjzwBYegnz23Fjt",
@@ -11,5 +11,5 @@
   "API_KEY": "jqfjqjf424525",
   "IPINFO_TOKEN": "de216a77a839cd",
   "API_USERNAME": "royalstress",
-  "API_URL": "http://royal-api.cc/api/attack"
+  "API_URL": "http://api.royalprojets.com/api/attack"
 }
