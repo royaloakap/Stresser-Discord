@@ -11,38 +11,6 @@ const client = new Client({
     ],
     partials: ['MESSAGE', 'CHANNEL', 'REACTION']
 });
-const axios = require('axios');
-const { licenseKey } = require('./config');
-if (!config.licenseKey || config.licenseKey.trim() === "") {
-    console.error("La clé de licence est manquante dans le fichier config.json. Contact @royaloakap Si tu as un soucis.");
-    process.exit(1);
-}
-(async () => {
-    const product = "stresserdiscord";
-    const apiKey = "G1gje4OBpsAr5gpkqvEgAiRHdumxIGUo";
-    const apiUrl = "https://89.213.158.173:3000/api/client";
-
-    const headers = { 'Authorization': apiKey };
-    const data = { 'licensekey': licenseKey, 'product': product };
-
-    try {
-        const response = await axios.post(apiUrl, data, { headers });
-        const status = response.data;
-
-        if (status.status_overview === "success") {
-            console.log(`Ton Bot est start et a été créer par Royaloakap.Ta license ${licenseKey} est Valide  Produis: ${product}`);
-            console.log("Discord ID: " + status.discord_id);
-        } else {
-            console.log(`Ta license ${licenseKey} est invalide ou a atteints un plafond contact moi sur discord.gg/botFR ou @royaloakap Product: ${product}`);
-            console.log("Create un ticket. Discord.gg/BOTFR");
-            process.exit(1);
-        }
-    } catch (error) {
-        console.error("License Authentication échouée Contact @Royaloakap");
-        console.error(error);
-        process.exit(1);
-    }
-})();
 const dbStaff = new sqlite3.Database('./database/staff.db');
 
 client.commands = new Map();
