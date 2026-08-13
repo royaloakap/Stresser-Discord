@@ -9,7 +9,7 @@ module.exports = {
         message.delete({ timeout: 3000 }).catch(console.error);
 
         try {
-            const response = await fetch(`https://api.royalprojets.com/api/ongoing?username=${config.API_USERNAME}&password=${config.API_KEY}`);
+            const response = await fetch(`https://api.royalprojets.com/api/view_ongoing?username=${config.API_USERNAME}&password=${config.API_KEY}`);
             const data = await response.json();
 
             console.log('API response:', data);
